@@ -1,23 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-image: url("../img/backgroundImage.png");
+}
+
 #name {
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    padding: 5px 10px;
+}
+
+img.profile {
+    padding: 10px 10px;
 }
 
 header {
-    background-color: blue;
+    background-color: #008080;
 } 
  
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
+nav ul li {
+    color: white
+    font-family: "Ubuntu", sans-serif;
+    background-color: #008080;
     display: inline-block;
-    float: left;
+    float: right;
+    list-style: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin: 0 5px;
 }
 
 nav a:hover {
     color: black;
+}
+
+footer {
+    
 }
